@@ -9,7 +9,7 @@ function Hero() {
         <div className={styles.hero_con}>
             <div className={styles.hero_info}>
                 <p className={styles.text1}>Hello, There</p>
-                <h3 className={styles.text2}>Thammarat Thamma</h3>
+                <h3 className={styles.text2}>ธรรมรัตน์</h3>
                 <p className={styles.text3}>
                     I'm a full stack dev.
                 </p>
