@@ -35,3 +35,21 @@
     }
   }
 }
+
+@media screen and (max-width: 480px){
+  .services_con {
+    height: auto;
+
+    & .services_list {
+      flex-direction: column;
+      margin: 50px 0;
+
+
+      & .services_items {
+        width: 100%;
+        margin: 20px 0;
+        padding: 20px;
+      }
+    }
+  }
+}
