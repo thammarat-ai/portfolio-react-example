@@ -20,9 +20,9 @@ function Navbar() {
           </div>
 
           <ul>
-            <li><a href="#">Skills</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#services">Skills</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
 
           <div className={styles.button}>
@@ -35,9 +35,9 @@ function Navbar() {
         {isToggle ? (
           <>
             <ul className={styles.mobile_menu}>
-              <li><a href="#">Skills</a></li>
-              <li><a href="#">Portfolio</a></li>
-              <li><a href="#">Contact</a></li>
+              <li><a href="#services">Skills</a></li>
+              <li><a href="#portfolio">Portfolio</a></li>
+              <li><a href="#contact">Contact</a></li>
             </ul>
 
             <div className={styles.mobile_button}>

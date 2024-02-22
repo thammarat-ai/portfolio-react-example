@@ -5,7 +5,7 @@ import {FaCode, FaPaintbrush, FaDesktop} from 'react-icons/fa6'
 
 function Services() {
   return (
-    <div className={styles.services_con}>
+    <div id='services' className={styles.services_con}>
       <h3 className={styles.services_title}>My Services</h3>
       <div className={styles.services_list}>
         <div className={styles.services_items}>

@@ -5,7 +5,7 @@ import { SiWhatsapp } from "react-icons/si";
 
 function Contact() {
   return (
-    <div className={styles.contact_wrapper}>
+    <div className={styles.contact_wrapper} id='contact'>
         <div className={styles.contact_con}>
             <div className={styles.contact_info}>
                 <h3>Get in touch</h3>
